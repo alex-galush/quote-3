@@ -1,0 +1,46 @@
+.style__quote__third {
+    margin: 0;
+    background: #f7f7f7;
+    border: 0.35rem solid #00aff0;
+    border-radius: .4rem;
+    text-align: center;
+    color: #fff;
+    padding: 30px 70px;
+    font-family: 'Monserrat', sans-serif;
+}
+.style__quote__third p {
+    margin-top: 0;
+    font-size: 1.65rem;
+    line-height: 1.35;
+}
+.style__quote__third span {
+    background: #00aff0;
+    box-shadow: -20px 0 #00aff0, 20px 0 #00aff0;
+    position: relative;
+}
+.style__quote__third span:before {
+    content: "\201C";
+    font-family: serif;
+    position: absolute;
+    font-size: 4.5rem;
+    left: -3.5rem;
+    top: 10px;
+    line-height: 0;
+    color: #00aff0;
+}
+.style__quote__third span:after {
+    content: "\201D";
+    font-family: serif;
+    position: absolute;
+    font-size: 4.5rem;
+    right: -3.5rem;
+    bottom: -10px;
+    line-height: 0;
+    color: #00aff0;
+}
+.footer cite {
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #00aff0;
+}
